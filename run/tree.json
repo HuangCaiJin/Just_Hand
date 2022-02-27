@@ -1,0 +1,100 @@
+{
+    "tag":"div",
+    "id":"tag_main",
+    "floor":1,
+    "config":{
+        "width":"100px",
+        "height":"30px",
+        "list": [
+            123,
+            234,
+            345
+        ]
+    },
+    "child":[
+        {
+            "tag":"p",
+            "id":"tag_main_child_0",
+            "floor":2,
+            "config":{
+                "width":"100px",
+                "height":"30px",
+                "list": [
+                    123,
+                    234,
+                    345
+                ]
+            },
+            "child":[
+                {
+                    "tag":"span",
+                    "id":"tag_main_child_0_child_0",
+                    "floor":3,
+                    "config":{
+                        "color":"#000",
+                        "size":"30px"
+                    },
+                    "child":[
+                        
+                    ]
+                },
+                {
+                    "tag":"icon",
+                    "id":"tag_main_child_0_child_1",
+                    "floor":3,
+                    "config":{
+                        "color":"#000",
+                        "size":"20px",
+                        "isHide":false
+                    },
+                    "child":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "tag":"div",
+            "id":"tag_main_child_1",
+            "floor":2,
+            "config":{
+                "width":"100px",
+                "height":"30px",
+                "list": [
+                    123,
+                    234,
+                    345
+                ]
+            },
+            "child":[
+                {
+                    "tag":"icon",
+                    "id":"tag_main_child_1_child_0",
+                    "floor":3,
+                    "config":{
+                        "color":"#000",
+                        "size":"20px",
+                        "isHide":false
+                    },
+                    "child":[
+                        
+                    ]
+                },
+                {
+                    "tag":"icon",
+                    "id":"tag_main_child_1_child_1",
+                    "floor":3,
+                    "config":{
+                        "color":"#000",
+                        "size":"20px",
+                        "bgColor":"#fff"
+                    },
+                    "child":[
+                        
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
